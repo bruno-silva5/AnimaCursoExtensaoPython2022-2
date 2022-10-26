@@ -1,8 +1,11 @@
-# Primeiro projeto em Python
+# comando input(): quero permitir que
+# o usuario digite algo
 
-print('Hello World')
+nome = input('Digite o seu nome: ')
+print(f"O nome eh {nome}")
 
-nome = "Bruno"
-idade = 20
+idade = int(input("Qual a sua idade? "))
 
-print(nome, idade)
+print(f"A sua idade eh: {idade}")
+
+print(f"O dobro da sua idade eh: {idade * 2}")
